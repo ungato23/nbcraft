@@ -6,6 +6,7 @@
 FishingRodItem::FishingRodItem(int id) : Item(id)
 {
 	m_maxDamage = 64;
+	m_maxStackSize = 1;
 }
 
 bool FishingRodItem::use(ItemStack& item, Level* level, Mob& user) const
